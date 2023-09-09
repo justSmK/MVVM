@@ -15,6 +15,16 @@
 		BBC197452AACBE120064DA35 /* MainViewController + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC197442AACBE120064DA35 /* MainViewController + TableView.swift */; };
 		BBC197472AACBE610064DA35 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC197462AACBE610064DA35 /* MainViewModel.swift */; };
 		BBC1974A2AACBF630064DA35 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC197492AACBF630064DA35 /* EndPoint.swift */; };
+		BBC1974C2AACC0010064DA35 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1974B2AACC0010064DA35 /* Users.swift */; };
+		BBC1974F2AACC0C40064DA35 /* URLSession + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1974E2AACC0C40064DA35 /* URLSession + Extensions.swift */; };
+		BBC197512AACC1890064DA35 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC197502AACC1890064DA35 /* NetworkError.swift */; };
+		BBC197532AACC1A90064DA35 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC197522AACC1A90064DA35 /* NetworkRequest.swift */; };
+		BBC197552AACC21D0064DA35 /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC197542AACC21D0064DA35 /* NetworkDataFetch.swift */; };
+		BBC197582AACD8970064DA35 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC197572AACD8970064DA35 /* Observable.swift */; };
+		BBC1975B2AACDCB50064DA35 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1975A2AACDCB50064DA35 /* MainCell.swift */; };
+		BBC1975D2AACDDF90064DA35 /* MainCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1975C2AACDDF90064DA35 /* MainCellViewModel.swift */; };
+		BBC1975F2AACE03F0064DA35 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1975E2AACE03F0064DA35 /* DetailsViewController.swift */; };
+		BBC197612AACE08B0064DA35 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC197602AACE08B0064DA35 /* DetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +38,16 @@
 		BBC197442AACBE120064DA35 /* MainViewController + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController + TableView.swift"; sourceTree = "<group>"; };
 		BBC197462AACBE610064DA35 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		BBC197492AACBF630064DA35 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		BBC1974B2AACC0010064DA35 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		BBC1974E2AACC0C40064DA35 /* URLSession + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession + Extensions.swift"; sourceTree = "<group>"; };
+		BBC197502AACC1890064DA35 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		BBC197522AACC1A90064DA35 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		BBC197542AACC21D0064DA35 /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		BBC197572AACD8970064DA35 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		BBC1975A2AACDCB50064DA35 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		BBC1975C2AACDDF90064DA35 /* MainCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellViewModel.swift; sourceTree = "<group>"; };
+		BBC1975E2AACE03F0064DA35 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		BBC197602AACE08B0064DA35 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +85,8 @@
 				BBDF73BF2AACBCCC0050E03B /* Views */,
 				BBDF73C02AACBCD20050E03B /* VIew Models */,
 				BBC197482AACBF560064DA35 /* Network */,
+				BBC197562AACD8850064DA35 /* Helpers */,
+				BBC1974D2AACC0B30064DA35 /* Extensions */,
 				BBDF73BE2AACBBB30050E03B /* Resources */,
 			);
 			path = MVVM;
@@ -74,8 +96,27 @@
 			isa = PBXGroup;
 			children = (
 				BBC197492AACBF630064DA35 /* EndPoint.swift */,
+				BBC197502AACC1890064DA35 /* NetworkError.swift */,
+				BBC197522AACC1A90064DA35 /* NetworkRequest.swift */,
+				BBC197542AACC21D0064DA35 /* NetworkDataFetch.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		BBC1974D2AACC0B30064DA35 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BBC1974E2AACC0C40064DA35 /* URLSession + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BBC197562AACD8850064DA35 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BBC197572AACD8970064DA35 /* Observable.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		BBDF73BD2AACBBA90050E03B /* Application */ = {
@@ -102,6 +143,8 @@
 			children = (
 				BBA468D12AACBB98005ED8CD /* MainViewController.swift */,
 				BBC197442AACBE120064DA35 /* MainViewController + TableView.swift */,
+				BBC1975A2AACDCB50064DA35 /* MainCell.swift */,
+				BBC1975E2AACE03F0064DA35 /* DetailsViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -110,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				BBC197462AACBE610064DA35 /* MainViewModel.swift */,
+				BBC1975C2AACDDF90064DA35 /* MainCellViewModel.swift */,
+				BBC197602AACE08B0064DA35 /* DetailsViewModel.swift */,
 			);
 			path = "VIew Models";
 			sourceTree = "<group>";
@@ -117,6 +162,7 @@
 		BBDF73C12AACBCDE0050E03B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BBC1974B2AACC0010064DA35 /* Users.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,10 +239,20 @@
 			files = (
 				BBC1974A2AACBF630064DA35 /* EndPoint.swift in Sources */,
 				BBC197472AACBE610064DA35 /* MainViewModel.swift in Sources */,
+				BBC1974F2AACC0C40064DA35 /* URLSession + Extensions.swift in Sources */,
+				BBC197612AACE08B0064DA35 /* DetailsViewModel.swift in Sources */,
+				BBC1975D2AACDDF90064DA35 /* MainCellViewModel.swift in Sources */,
 				BBA468D22AACBB98005ED8CD /* MainViewController.swift in Sources */,
+				BBC197582AACD8970064DA35 /* Observable.swift in Sources */,
+				BBC1975B2AACDCB50064DA35 /* MainCell.swift in Sources */,
+				BBC197532AACC1A90064DA35 /* NetworkRequest.swift in Sources */,
 				BBC197452AACBE120064DA35 /* MainViewController + TableView.swift in Sources */,
 				BBA468CE2AACBB98005ED8CD /* AppDelegate.swift in Sources */,
+				BBC197552AACC21D0064DA35 /* NetworkDataFetch.swift in Sources */,
+				BBC197512AACC1890064DA35 /* NetworkError.swift in Sources */,
 				BBA468D02AACBB98005ED8CD /* SceneDelegate.swift in Sources */,
+				BBC1974C2AACC0010064DA35 /* Users.swift in Sources */,
+				BBC1975F2AACE03F0064DA35 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
