@@ -14,6 +14,7 @@
 		BBA468DA2AACBB98005ED8CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA468D82AACBB98005ED8CD /* LaunchScreen.storyboard */; };
 		BBC197452AACBE120064DA35 /* MainViewController + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC197442AACBE120064DA35 /* MainViewController + TableView.swift */; };
 		BBC197472AACBE610064DA35 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC197462AACBE610064DA35 /* MainViewModel.swift */; };
+		BBC1974A2AACBF630064DA35 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC197492AACBF630064DA35 /* EndPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BBA468DB2AACBB98005ED8CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBC197442AACBE120064DA35 /* MainViewController + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController + TableView.swift"; sourceTree = "<group>"; };
 		BBC197462AACBE610064DA35 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		BBC197492AACBF630064DA35 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +64,18 @@
 				BBDF73C12AACBCDE0050E03B /* Models */,
 				BBDF73BF2AACBCCC0050E03B /* Views */,
 				BBDF73C02AACBCD20050E03B /* VIew Models */,
+				BBC197482AACBF560064DA35 /* Network */,
 				BBDF73BE2AACBBB30050E03B /* Resources */,
 			);
 			path = MVVM;
+			sourceTree = "<group>";
+		};
+		BBC197482AACBF560064DA35 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BBC197492AACBF630064DA35 /* EndPoint.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		BBDF73BD2AACBBA90050E03B /* Application */ = {
@@ -180,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC1974A2AACBF630064DA35 /* EndPoint.swift in Sources */,
 				BBC197472AACBE610064DA35 /* MainViewModel.swift in Sources */,
 				BBA468D22AACBB98005ED8CD /* MainViewController.swift in Sources */,
 				BBC197452AACBE120064DA35 /* MainViewController + TableView.swift in Sources */,
